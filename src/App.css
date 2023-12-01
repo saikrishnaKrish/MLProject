@@ -1,0 +1,102 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+} */
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.imageContainer, .cardImage{
+  max-width: 500px;
+  border-radius: 22px;  
+  max-width: 500px;
+  border-radius: 22px;
+  padding: 12px;
+  height: 250px;  
+  border: 4px solid cadetblue;
+  border-radius: 20px;
+  margin: 10px;
+}
+
+.imageContainer:hover{
+  /* max-width: 500px; */
+  border: 4px solid rgb(167, 193, 194);
+  border-radius: 20px;
+  /* height: 250px; */
+  /* padding: 12px; */
+}
+
+.ReactModal__Content.ReactModal__Content--after-open {
+  width: 75%;
+  height: 50%;
+  background: beige !important;
+  font-family: sans-serif;
+  border-radius:40px;
+}
+
+.mainContainer{
+  background-image: url(/src/assets/background.0eabd2c….png);
+  background-position: center center;
+  background-size: cover;
+  background-color: aliceblue;
+  height: calc(100vh + 100px);
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 0px 50px;
+}
+ 
+.modalContainer {
+
+}
+
+
+.modalClosebtn {
+  float: right;
+    color: antiquewhite;
+    background: #3434d2;
+    font-size: 20px;
+    display: block;
+}

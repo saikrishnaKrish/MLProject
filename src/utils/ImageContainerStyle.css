@@ -1,0 +1,33 @@
+.imageTextContainer {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  strong {
+    color: #333;
+  }
+
+  p, ul, ol {
+    margin-bottom: 15px;
+  }
+
+  li {
+    margin-bottom: 5px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  ul ul {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .modalContainer {
+    padding: 25px;
+}
